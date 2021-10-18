@@ -14,8 +14,7 @@
     The overall performance of stocks in 2017 is much better than in 2018. 2 stocks "RUN" and "ENPH" are exceptions where they performed better in 2018 than the year before.
 
 ### Execution time
-    The run time after using refactored code. ![original](https://github.com/echoqshen/wk2_VBA_challenge/blob/main/resources/VBA_Challenge_2017.png) vs ![refactored](https://github.com/echoqshen/wk2_VBA_challenge/blob/main/resources/VBA_Challenge_2017%20refactor.png)
-    ![original](https://github.com/echoqshen/wk2_VBA_challenge/blob/main/resources/VBA_Challenge_2018.png) vs ![refactored](https://github.com/echoqshen/wk2_VBA_challenge/blob/main/resources/VBA_Challenge_2018%20refactor.png)
+    The run time after using refactored code. 
     Instead of looping thru the entire dataset times the number of tickers as we did originally, we now loop thru the dataset one time, inside the the loop, we look for the starting and ending prices to complete the calculation. So we have dramatically reduced the number of steps, using less memory to make the code more efficient.
 
 ## Summary
