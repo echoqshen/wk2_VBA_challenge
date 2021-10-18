@@ -15,6 +15,12 @@
 
 ### Execution time
     The run time after using refactored code. 
+![](https://github.com/echoqshen/wk2_VBA_challenge/blob/main/resources/VBA_Challenge_2017.png)
+vs
+![](https://github.com/echoqshen/wk2_VBA_challenge/blob/main/resources/VBA_Challenge_2017%20refactor.png)
+
+![](https://github.com/echoqshen/wk2_VBA_challenge/blob/main/resources/VBA_Challenge_2018.png)
+![](https://github.com/echoqshen/wk2_VBA_challenge/blob/main/resources/VBA_Challenge_2018%20refactor.png)
     Instead of looping thru the entire dataset times the number of tickers as we did originally, we now loop thru the dataset one time, inside the the loop, we look for the starting and ending prices to complete the calculation. So we have dramatically reduced the number of steps, using less memory to make the code more efficient.
 
 ## Summary
